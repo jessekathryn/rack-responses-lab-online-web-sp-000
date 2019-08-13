@@ -10,7 +10,7 @@ class Application
  
     if time_1>=100 && time_1<=1200
       resp.write "Good Morning!"
-    elsif time_1>1200
+    elsif time_1<1200
       resp.write "Good Afternoon!"
     end
  
