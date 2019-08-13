@@ -11,7 +11,7 @@ class Application
     resp.write "#{time_2}\n"
    
  
-    if time_1<=time_1 && time_2<time_1
+    if time_1<=time_1 && time_2<=time_1
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
