@@ -3,8 +3,8 @@ class Application
   def call(env)
     resp = Rack::Response.new
  
-    time_1 = Kernel.int(1200)
-    time_2 = Kernel.int(2400)
+    time_1 = Kernel.rand(100..1200)
+    time_2 = Kernel.rand(100..2400)
 
  
     resp.write "#{time_1}\n"
