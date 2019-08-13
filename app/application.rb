@@ -11,9 +11,9 @@ class Application
     resp.write "#{time_2}\n"
    
  
-    if time_1<=1200 && time_2>1200
+    if time_1<=1200 
       resp.write "Good Morning!"
-    else
+    elsif time_2 >1200
       resp.write "Good Afternoon!"
     end
  
